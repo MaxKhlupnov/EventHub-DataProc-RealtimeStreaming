@@ -36,15 +36,37 @@
             <artifactId>spark-streaming_2.12</artifactId>
             <version>2.4.5</version>
         </dependency>
-        <dependency>
+        <!--  dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-structured-streaming-jdbc-sink</artifactId>
             <version>0.1-SNAPSHOT</version>
-        </dependency>
+        </dependency -->
         <dependency>
             <groupId>com.microsoft.azure</groupId>
             <artifactId>azure-eventhubs-spark_2.12</artifactId>
             <version>2.3.15</version>
         </dependency>
-    </dependencies>
-</project>
+        <dependency>
+            <groupId>ru.yandex.clickhouse</groupId>
+            <artifactId>clickhouse-jdbc</artifactId>
+            <version>0.2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.12</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.bahir</groupId>
+            <artifactId>spark-sql-streaming-jdbc_2.12</artifactId>
+            <version>2.4.0</version>
+        </dependency>
+
+
+        </dependencies>
+    </project>
