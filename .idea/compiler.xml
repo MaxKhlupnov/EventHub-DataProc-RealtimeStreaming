@@ -6,12 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="EventHubStreaming" />
-        <module name="spark-structured-streaming-jdbc-sink" />
+        <module name="eventhub-clickhouse-streaming" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="EventHubStreaming" target="8" />
+      <module name="eventhub-clickhouse-streaming" target="8" />
       <module name="spark-structured-streaming-jdbc-sink" target="6" />
     </bytecodeTargetLevel>
   </component>

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/eventhub-clickhouse-streaming/EventHubStreaming.iml" filepath="$PROJECT_DIR$/eventhub-clickhouse-streaming/EventHubStreaming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spark-structured-streaming-jdbc-sink/spark-structured-streaming-jdbc-sink.iml" filepath="$PROJECT_DIR$/spark-structured-streaming-jdbc-sink/spark-structured-streaming-jdbc-sink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventhub-clickhouse-streaming/eventhub-clickhouse-streaming.iml" filepath="$PROJECT_DIR$/eventhub-clickhouse-streaming/eventhub-clickhouse-streaming.iml" />
     </modules>
   </component>
 </project>
