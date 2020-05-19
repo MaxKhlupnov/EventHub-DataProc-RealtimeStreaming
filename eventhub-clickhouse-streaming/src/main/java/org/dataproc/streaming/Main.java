@@ -105,7 +105,7 @@ public class Main {
                 .option("user", SecretsConst.POSTGRE_USER)
                 .option("password", SecretsConst.POSTGRE_PWD)
                 .option("checkpointLocation", "C:/Temp/checkpoint")//tmp/clickhouse-out/checkpoint
-                //.option(JDBCOptions.JDBC_BATCH_INSERT_SIZE(), "5")
+                .option(JDBCOptions.JDBC_BATCH_INSERT_SIZE(), "100")
                 .trigger(Trigger.ProcessingTime("10 seconds"))
                 .start();
         try {
